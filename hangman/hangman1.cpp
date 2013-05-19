@@ -6,73 +6,32 @@ Output sequential series of hangman phases
 */
 
 #include <iostream>
+#include <cstdlib>
+
 using namespace std;
 
 int main()
 {
-	cout << "    -------|" << endl;
-	cout << "    |      |" << endl;
-	cout << "           |" << endl;
-	cout << "           |" << endl;
-	cout << "           |" << endl;
-	cout << "           |" << endl;
-	cout << "         _____" << endl;
-	cout << endl << endl;
+	cout << "    -------|\n    |      |\n           |\n           |\n           |\n           |\n         _____"
+	     << endl << endl << endl;
 
-	cout << "    -------|" << endl;
-	cout << "    |      |" << endl;
-	cout << "    O      |" << endl;
-	cout << "           |" << endl;
-	cout << "           |" << endl;
-	cout << "           |" << endl;
-	cout << "         _____" << endl;
-	cout << endl << endl;
+	cout << "    -------|\n    |      |\n    O      |\n           |\n           |\n           |\n         _____" 
+			 << endl << endl << endl;
 
-	cout << "    -------|" << endl;
-	cout << "    |      |" << endl;
-	cout << "    O      |" << endl;
-	cout << "    |      |" << endl;
-	cout << "           |" << endl;
-	cout << "           |" << endl;
-	cout << "         _____" << endl;
-	cout << endl << endl;
+	cout << "    -------|\n    |      |\n    O      |\n    |      |\n           |\n           |\n         _____" 
+			 << endl << endl << endl;
 
-	cout << "    -------|" << endl;
-	cout << "    |      |" << endl;
-	cout << "    O      |" << endl;
-	cout << "   -|      |" << endl;
-	cout << "           |" << endl;
-	cout << "           |" << endl;
-	cout << "         _____" << endl;
-	cout << endl << endl;
+	cout << "    -------|\n    |      |\n    O      |\n   -|      |\n           |\n           |\n         _____"
+			 << endl << endl << endl;
 
-	cout << "    -------|" << endl;
-	cout << "    |      |" << endl;
-	cout << "    O      |" << endl;
-	cout << "   -|-     |" << endl;
-	cout << "           |" << endl;
-	cout << "           |" << endl;
-	cout << "         _____" << endl;
-	cout << endl << endl;
+	cout << "    -------|\n    |      |\n    O      |\n   -|-     |\n           |\n           |\n         _____"
+			 << endl << endl << endl;
 
-	cout << "    -------|" << endl;
-	cout << "    |      |" << endl;
-	cout << "    O      |" << endl;
-	cout << "   -|-     |" << endl;
-	cout << "   /       |" << endl;
-	cout << "           |" << endl;
-	cout << "         _____" << endl;
-	cout << endl << endl;
+	cout << "    -------|\n    |      |\n    O      |\n   -|-     |\n   /       |\n           |\n         _____" 
+			 << endl << endl << endl;
 
-	cout << "    -------|" << endl;
-	cout << "    |      |" << endl;
-	cout << "    O      |" << endl;
-	cout << "   -|-     |" << endl;
-	cout << "   / \\     |" << endl;
-	cout << "           |" << endl;
-	cout << "         _____" << endl;
-	cout << endl << endl;
+	cout << "    -------|\n    |      |\n    O      |\n   -|-     |\n   / \\     |\n           |\n         _____"
+			 << endl << endl << endl;
 
-	system("pause");
 	return 0;
 }
